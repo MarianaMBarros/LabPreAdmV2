@@ -1,0 +1,131 @@
+/* esconde bloco de informações*/
+.hide{
+  display: none;
+}
+/* exibe bloco de informações*/
+.show{
+  display: block;
+}
+
+html, body{min-height:100%;}
+
+#quiz{
+  color: #000080;
+  display: inline-block;
+  padding: 80px 20px;
+  width: 150px;
+  font-size: 50px;
+  font-style:italic;
+  font-family: Courier, monospace;
+  text-align: center;
+}
+
+#user, #titulo{
+  color: #000080;
+  display: inline-block;
+  padding: 80px 20px;
+  font-size: 50px;
+  font-style:italic;
+  font-family: Courier, monospace;
+  text-align: center;
+}
+
+#correctQuestion{
+  font-size: 20px;
+  font-weight:bold;
+  color: green;
+  font-style:italic;
+  font-family: Courier, monospace;
+  text-align: center;
+}
+
+#incorrectQuestion{
+  font-size: 20px;
+  color:red;
+  font-weight:bold;
+  font-style:italic ;
+  font-family: Courier, monospace;
+  text-align: center;
+}
+
+h2{
+  color: #000080;
+  font-size: 20px ;
+  font-style:italic;
+  font-family: Courier, monospace;
+  margin-top: 0;
+  text-align: center;
+}
+
+.category{
+  display: inline-block;
+  width: 220px;
+  border: 1px solid blue;
+  height: 220px;
+  text-align: center; 
+  margin: 15px;
+}
+
+#result{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+#gameIncor{
+padding-left: 25px;
+}
+
+
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  font-family: Courier, monospace;
+  font-style:italic;
+  text-align: center;
+}
+
+button{
+  width:250px;
+  color:#0000CD;
+  text-align: center;
+  font-size: 50px ;
+  font-weight:bold;
+  font-family: Courier, monospace;
+  border-radius: 6px;
+  background-color: #ADD8E6;
+  font-size: 18px;
+}
+
+.resp{
+  font-size: 15px;
+  color:#000080;
+  font-weight:bold;
+  font-style:italic ;
+  font-family: Courier, monospace;
+  text-align: center;
+
+}
+
+#enter{
+  color:#0000CD;
+  text-align: center;
+  padding: 50px 20px;
+  font-size: 50px ;
+  font-family: Courier, monospace;  
+  border-radius: 6px;;
+  font-size: 18px;
+}
+
+body{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: linear-gradient( white, purple); 
+}
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Quiz</title>
+</head>
+
+<body>
+    <main>          
+        <header id="initial" class="show">
+            <h1 id="quiz">Quiz</h1> 
+            <h2>Vamos Testar seus Conhecimentos</h2>
+            <main id="enter">
+                <button  onclick="enterGame()">Entrar</button>
+            </main> 
+        </header>
+    </main>
+
+    <main>
+        <header id="game" class="hide" class="center">
+            <h1 id="user"></h1>
+            <h2>Escolha o Tema que Deseja Jogar</h2>
+            <button onclick="escolha(1)">Matematica</button> 
+            <button onclick="escolha(2)">Conhecimentos Gerais</button>
+        </header>
+    </main>
+    
+    <main>
+        <div id="resultGame" class="hide">
+            <header> 
+                <h1 id="titulo">Resultado</h1> 
+            </header> 
+        
+        <main id="result">
+            <section  id="gameCor" class="category">
+                <h2 class="resp">Respostas Corretas</h2>
+                <div id="correctQuestion"></div>
+            </section>
+    
+            <section  id="gameIncor" class="category">
+                <h2 class="resp">Respostas Incorretas</h2>
+                <div id="incorrectQuestion"></div>
+            </section>
+        </main>            
+
+        <button onclick="backGame()">Jogar Novamente</button>
+        <button onclick="exit()">Sair</button>
+    </main>
+
+    <footer class="title">Desenvolvido Por Mariana Barros</footer>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
