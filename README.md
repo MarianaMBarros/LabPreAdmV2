@@ -1,7 +1,7 @@
 # Projeto Pré-Admissão Laboratória - Melhorado 
 
 ## 1. Resumo do Projeto
- Desolvolver um simulador via prompt onde o usuario escolhe a matéria que deseja testar seus conhecimentos.
+ Desolvolver um simulador via prompt onde o usuário escolhe a matéria que deseja testar seus conhecimentos.
 
 
 ## 2. Considerações técnicas
